@@ -19,6 +19,7 @@ def help
 end 
 
 def list(songs)
-  
-  
+  songs.each_with_index(1) do |name, i|
+    puts "#{1}. #{name}"
+  end 
 end 

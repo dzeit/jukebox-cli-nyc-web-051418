@@ -23,3 +23,13 @@ def list(songs)
     puts "#{1}. #{name}"
   end 
 end 
+
+def play(songs)
+  
+end 
+
+def end
+  puts "Goodbye"
+end 
+
+def run 

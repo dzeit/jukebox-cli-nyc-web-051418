@@ -29,7 +29,7 @@ def play(songs)
     user_input = gets.chomp
     if songs.include?(user_input) 
       puts "Playing #{user_input}"
-      elsif songs.include?[1..9]
+      elsif user_input.between?(1..9)
         puts "Playing song # #{songs[user_input]}"
   else 
     puts "Invalid input, please try again"

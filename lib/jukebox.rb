@@ -19,8 +19,8 @@ def help
 end 
 
 def list(songs)
-  songs.each_with_index(1) do |name, i|
-    puts "#{1}. #{name}"
+  songs.each_with_index do |name, i|
+    puts "#{i + 1}. #{name}"
   end 
 end 
 
